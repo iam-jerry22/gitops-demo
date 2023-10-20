@@ -35,7 +35,7 @@ sudo usermod -aG docker $USER
 sudo usermod -aG docker jenkins
 newgrp docker
 sudo systemctl enable --now docker
-
+--------------------------------------------------------
 ✅ Kubectl
 cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
