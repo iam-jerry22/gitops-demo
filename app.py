@@ -30,7 +30,7 @@ def health():
 
 @app.route("/")
 def home():
-    return "Hello from DevOps Made Easy; Nivas the Best person in the world"
+    return "Nivas the Best person in the world..! DevOps the future"
    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
